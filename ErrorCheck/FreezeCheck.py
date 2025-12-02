@@ -42,4 +42,5 @@ if ng_objects:
         )
         cmds.confirmDialog(title='フリーズ完了', message=u'フリーズを適用しました。', button=['OK'], icon='information')
 else:
+
     cmds.confirmDialog(title='チェック結果', message=u'フリーズチェックOK！', button=['OK'], icon='information')
