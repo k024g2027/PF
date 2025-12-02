@@ -50,4 +50,5 @@ if pivot_errors:
 elif msg:
     cmds.confirmDialog(title='チェック結果', message=msg, button=['OK'], icon='critical')
 else:
+
     cmds.confirmDialog(title='チェック結果', message=u'ピボットチェックOK！', button=['OK'], icon='information')
